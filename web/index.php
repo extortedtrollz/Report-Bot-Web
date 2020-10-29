@@ -148,7 +148,7 @@ if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
 				<input type = "text" placeholder="MatchID" name = "matchid" /><br><br>
 				<input type = "checkbox" onclick = "document.getElementById('buttplug').disabled=false;" id="checky"> I understand that the Player needs to be in my game.<br><br>
 				Password:
-				<input type = "text" placeholder="Password" name = "pw" /><br><br>
+				<input type = "text" placeholder="Password" name = "extortionland" /><br><br>
 			    <div class="g-recaptcha" data-sitekey="<?php echo $gcaptchasidekey?>"></div><br>
 				<input class="btn btn-lg btn-success" value="Report!" disabled="true" id="buttplug" type = "submit" />
 			  </form>
